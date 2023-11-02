@@ -15,7 +15,7 @@
 //         solvedPhrase = "";
 //         phrase = loadRandomPhrase();
 //         generateRandomLetterValue();
-//         System.out.println("Phrase: " + phrase); // Temporary test code
+//         System.out.println("Phrase is: " + phrase); // Temporary test code
 //     }
 
 //     /**
@@ -52,7 +52,7 @@
 //                 numOfLines++;
 //             }
 //         } catch (Exception e) {
-//             System.out.println("Error reading or parsing phrases.txt");
+//             System.out.println("Error reading or parsing the phrases.txt file");
 //         }
 
 //         int randomInt = (int) ((Math.random() * numOfLines) + 1);
@@ -68,7 +68,7 @@
 //                 }
 //             }
 //         } catch (Exception e) {
-//             System.out.println("Error reading or parsing phrases.txt");
+//             System.out.println("Error reading or parsing the phrases.txt file");
 //         }
 
 //         solvedPhrase = initializeSolvedPhrase(tempPhrase);
@@ -134,7 +134,7 @@ public class Board {
         solvedPhrase = "";
         phrase = loadRandomPhrase();
         generateRandomLetterValue();
-        System.out.println("Phrase: " + phrase); // Temporary test code
+        System.out.println("Phrase is: " + phrase); // Temporary test code
     }
 
     public void generateRandomLetterValue() {

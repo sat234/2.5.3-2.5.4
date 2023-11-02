@@ -13,14 +13,14 @@
 //     public Player() {
 //         initializeName();
 //         points = 0.0;
-//         System.out.println("Hello and welcome to the game, " + name);
+//         System.out.println("Hello and welcome to our phrase guesser game, " + name);
 //     }
 
 //     /**
 //      * Initialize the player's name by getting input from the user.
 //      */
 //     private void initializeName() {
-//         System.out.println("Enter Player Name: ");
+//         System.out.println("Please enter your name: ");
 //         Scanner scanner = new Scanner(System.in);
 //         name = scanner.nextLine();
 //     }
@@ -68,14 +68,14 @@ public class Player {
     public Player() {
         initializeName();
         points = 0.0;
-        System.out.println("Hello and welcome to the game, " + name);
+        System.out.println("Hello and welcome to our phrase gusser game, " + name);
     }
 
     /**
      * Initialize the player's name by getting input from the user.
      */
     private void initializeName() {
-        System.out.println("Enter Player Name: ");
+        System.out.println("Please enter your name: ");
         Scanner scanner = new Scanner(System.in);
         name = scanner.nextLine();
     }
@@ -113,10 +113,10 @@ public class Player {
         
         // Get the player's name
         String playerName = player.getName();
-        System.out.println("Player's Name: " + playerName);
+        System.out.println("The name of the person playing the game is: " + playerName);
         
         // Get the player's points
         double playerPoints = player.getPoints();
-        System.out.println("Player's Points: " + playerPoints);
+        System.out.println("The number of points the player has is: " + playerPoints);
     }
 }

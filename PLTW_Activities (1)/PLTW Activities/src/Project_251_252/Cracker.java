@@ -144,7 +144,7 @@ public class Cracker {
      * @return The player's guess as a String.
      */
     private String getPlayerInput(Scanner input) {
-        System.out.println("Player " + currentPlayer + ", enter your guess: ");
+        System.out.println("Player " + currentPlayer + ", Please enter your guess for phrase: ");
         return input.nextLine();
     }
 }
